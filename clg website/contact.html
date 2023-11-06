@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>registration page </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="application/javascript" src="./js/lib/jquery.min.js" defer></script>
+    <script type="application/javascript" src="./js/contact.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <div class="form-container">
+
+            <div class="input-name">
+                <i class="fa fa-user lock"></i>
+                <input type="text" id="firstname" placeholder="firstname" class="name">
+                <span>
+                    <i class="fa fa-user lock"></i>
+                    <input type="text" id="lastname" placeholder="lastname" class="name">
+                </span>
+            </div>
+
+            <div class="input-name">
+                <i class="fa fa-envelope email"></i>
+                <input type="email" id="email" placeholder="Email" class="text-name">
+            </div>
+
+            <div class="input-name">
+                <i class="fa fa-lock lock"></i>
+                <input type="password" id="password" placeholder="Password" class="text-name">
+            </div>
+
+            <div class="input-name">
+                <i class="fa fa-lock lock"></i>
+                <input type="password" id="confirmpassword" placeholder="Confirm-Password" class="text-name">
+            </div>
+
+            <div class="input-name">
+                <input type="radio" class="radio-button" value="Male" name="gender">
+                <label style="margin-right: 30px;">Male</label>
+                <input type="radio" class="radio-button" value="Female" name="gender">
+                <label>Female</label>
+            </div>
+
+            <div class="input-name">
+                <select id="college" class="country">
+                    <option value="-1">Select a college</option>
+                    <option value="Govt. Polytechnic Kotabagh.">Govt. Polytechnic Kotabagh.</option>
+                    <option value="Govt. Polytechnic Kashipur.">Govt. Polytechnic Kashipur.</option>
+                    <option value="KL Polytechnic Roorkee."> KL Polytechnic Roorkee.</option>
+                    <option value="Govt. Polytechnic Srinagar.">Govt. Polytechnic Srinagar.</option>
+                    <option value="Govt. Polytechnic Dwarahat.">Govt. Polytechnic Dwarahat.</option>
+                </select>
+
+                <div class="arrow"></div>
+            </div>
+
+            <div class="input-name">
+                <input type="checkbox" id="cb" class="check-button">
+                <label for="cb" class="check"> Accept the terms and conditions</label>
+            </div>
+
+
+            <div class="input-name">
+                <input type="button" id="register" class="button" value="Register">
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,524 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    color: #ededed;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #f0f3fa; */
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.navbar a{
+    display: inline-block;
+    font-size:25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500;
+    margin-left: 35px;
+    transition: 0.3s;
+
+}
+.navbar a:hover
+{
+    color: #0ef;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(../assets/images/clg-img/starry-sky-2675322_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content{
+    max-width: 600px;
+
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.home-content h1{
+    font-size: 53px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+    
+}
+/* .width-100 {
+    width: 100%;
+    float: left;
+
+}
+
+.container {
+    margin: 0px auto;
+    width: 1500px;
+}
+
+.top-header {
+    background: dodgerblue;
+    border-bottom: 1px solid #3131315e;
+    padding: 5px 0px;
+
+}
+
+.news-list {
+    background: white;
+    color: red;
+    padding: 6px;
+    font-size: 19px;
+
+
+} */
+
+/* .headquote {
+
+    width: 80%;
+    font-size: 18px;
+    /* color: white; */
+
+ 
+
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height: 6rem;
+    width: 100vw;
+    background-color:white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    position: fixed;
+    z-index: 10;
+} */
+
+/*Styling logo*/
+/* .logo{
+    padding:1vh 1vw;
+    text-align: center;
+}
+.logo img {
+    height: 5rem;
+    width: 5rem;
+} */
+
+/*Styling Links*/
+/* .nav-links{
+    display: flex;
+    list-style: none; 
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+}
+.nav-links li a:hover {
+    color: #61DAFB;
+}
+.nav-links li {
+    position: relative;
+}
+.nav-links li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #61DAFB;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+.nav-links li a:hover::before{
+    width: 80%;
+} */
+
+/*Styling Buttons*/
+.login-button{
+    background-color: transparent;
+    border: 1.5px solid #f2f5f7;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    margin-left: 2vw;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.login-button:hover {
+    color: #131418;
+    background-color: #f2f5f7;
+    border:1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+.join-button{
+    color: #131418;
+    background-color: #61DAFB;
+    border: 1.5px solid #61DAFB;
+    border-radius: 2em;
+    padding: 0.6rem 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.join-button:hover {
+    color: #f2f5f7;
+    background-color: transparent;
+    border:1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+
+.row.content {
+    height: 450px
+}
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header-menu {
+    box-shadow: 0px 2px 5px 0px #00000036;
+    position: relative;
+
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+
+
+}
+
+.main-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #3a3a3a;
+    font-weight: 500;
+}
+
+.main-menu li {
+    float: left;
+    padding: 13px 25px;
+} */
+
+.slider-width {
+    height: auto;
+    width: 100%;
+}
+.margin-top-50{
+    margin-top: 50px;
+
+}
+.width-33{
+    width: 33%;
+    float: left;
+}
+.latest-news{
+    margin-top: 30px;
+    height: 350px;
+    background:black;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+
+.heading-sect{
+    color: white;
+    background: #00aed9;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #cfcfcf;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    border: 1px solid #cfcfcf;
+    
+
+}
+.head-title{
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+.latest-news-ul{
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+
+}
+.event-list{
+    margin-top: 30px;
+    height: 350px;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.upcoming-event-list{
+
+    list-style: none;
+    padding: 0px;
+}
+.upcoming-event-list li{
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+.event-date{
+    margin-right: 10px;
+    padding: 8px;
+    color: white;
+    background: skyblue;
+    float: left;
+    width: 34px;
+    text-align: center;
+    font-size: 14px;
+}
+.notice-board{
+    margin-top: 30px;
+    height: 350px;
+    background:black;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+.notice-board-list{
+    line-height: 40px;
+    padding: 0px;
+    list-style: none;
+
+}
+.notice-board-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+
+}
+.our-principal{  
+    height: 350px;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 30px;
+
+}     
+.useful-info-ul{
+    list-style: none;
+}   
+.useful-info-ul li{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+
+}
+.useful-info-ul a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+.gov-sec-style{
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+}
+.governor-name{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 50px;
+
+}
+.governor-designation{
+    font-size: 16px;
+    color: black;
+    margin-top: 6px;
+
+
+}
+.governor-img{
+    width: 51%;
+
+}
+.width-40{
+      width:40%;
+      float:left;
+}
+.width-60{
+  width:60%;
+  float:left;
+}
+.about-us{
+    height: 350px;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.certificate{
+    height: 350px;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+.staff-img{
+ width: 169px;
+}
+.width-169{
+    
+    width: 50%;
+    float: left;
+}
+.staff-designation{
+    font-size: 16px;
+color: black;
+margin-top: 6px;
+
+}
+.staff-name{
+
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top:42px;
+
+}
+.gallery-head-style{
+    font-size: 28px;
+    color: brown;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+    background: white;
+    padding: 2px;
+
+}
+.width-25{
+    width: 25%;
+    float: left;
+
+}
+.gallery-img{
+    width: auto;
+    height: 250px;
+
+
+}
+.rounded-circle {
+    /* border-radius: 50%!important; */
+    height: 220px;
+    width: 82%;
+
+}
+.row {
+    display: flex;
+    margin-left: 263px;
+  }
+  
+  
+  .column{
+  float: left;
+    width: 30%;
+    padding: 0px;
+}
+ 
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  

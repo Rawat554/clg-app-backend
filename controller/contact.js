@@ -1,10 +1,11 @@
 const db = require("../database/dbConnect");
 
 const createContactUs = (req, res) => {
-  let sql = `INSERT INTO ContactUs(NAME, PHONE_NUMBER, EMAIL, DESCRIPTION) VALUES(?,?,?,?)`;
+  console.log(req.body)
+  let sql = `INSERT INTO ContactUs(FirstName, LastName, Email, Password, Gender, College) VALUES(?,?,?,?,?,?)`;
   db.run(
     sql,
-    [req.body.name, req.body.phone_no, req.body.email, req.body.desc],
+    [req.body.firstName, req.body.lastName, req.body.email, req.body.password, req.body.gender, req.body.college],
     (err) => {
       if (err) {
         if(err){
